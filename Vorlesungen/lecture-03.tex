@@ -373,7 +373,7 @@ bestimmte Zustand, den man erreicht, wenn man ausgehend von $q$ das Wort $w$ ein
 \item $\delta(q,\epsilon)=q$ (Fall $w=\epsilon$)
 \item $\delta(q,\Sterm{a}v)=\delta(\delta(q,\Sterm{a}),v)$ (Fall $w=\Sterm{a}v$)
 \end{itemize}
-$\delta(q,w)$ ist undefiniert wenn einer der nötigen Übergänge undefiniert ist.
+$\delta(q,w)$ ist undefiniert, wenn einer der nötigen Übergänge undefiniert ist.
 }
 
 Die Sprache eines DFA kann nun formal definiert werden:
@@ -414,7 +414,7 @@ $\leadsto$ wird beim Lesen eines Wortes $q_f$ erreicht, dann kann es nicht mehr 
 \theobox{
 \emph{Satz:}
 $\Smach{M}_{\text{total}}=\tuple{Q',\Sigma,\delta',q_0,F}$ hat eine totale Übergangsfunktion
-und akzeptiert die selbe Sprache wie $\Smach{M}$, d.h. $\Slang{L}(\Smach{M}_{\text{total}})=\Slang{L}(\Smach{M})$.
+und akzeptiert dieselbe Sprache wie $\Smach{M}$, d.h. $\Slang{L}(\Smach{M}_{\text{total}})=\Slang{L}(\Smach{M})$.
 }\medskip\pause
 
 \emph{Beispiel:} Wir betrachten das Alphabet $\Sigma=\{\Sterm{a},\Sterm{b},\Sterm{c}\}$\bigskip
@@ -500,7 +500,7 @@ der regulären Sprachen.
 }
 
 \emph{Beweis:} Eine Richtung dieser Behauptung ist leicht zu sehen:\\[0.5ex]
-Für jeden DFA $\Smach{M}$ gibt es eine reguläre Grammatik $G_{\Smach{M}}$, welche die selbe Sprache erzeugt (d.h., $\Slang{L}(\Smach{M})=\Slang{L}(G_{\Smach{M}})$).\smallskip\pause
+Für jeden DFA $\Smach{M}$ gibt es eine reguläre Grammatik $G_{\Smach{M}}$, welche dieselbe Sprache erzeugt (d.h., $\Slang{L}(\Smach{M})=\Slang{L}(G_{\Smach{M}})$).\smallskip\pause
 
 \codebox{Für $\Smach{M}=\tuple{Q,\Sigma,\delta,q_0,F}$ ergibt sich $G_{\Smach{M}}=\tuple{V,\Sigma,P,S}$ wie folgt:
 \begin{itemize}
