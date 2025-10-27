@@ -23,7 +23,7 @@ PDFs erstellen
 Die Quellen können mit ```pdflatex``` in PDFs umgewandelt werden.
 
 Das Script [build.sh](https://github.com/knowsys/FormaleSysteme/blob/master/Vorlesungen/build.sh)
-erzeugt außerdem eine Druckversion mit vier Folien pro Seite (benötigt ```pdfjam```).s
+erzeugt außerdem eine Druckversion mit vier Folien pro Seite (benötigt ```pdfjam```).
 
 Die fertigen PDFs werden semesterbegleitend auf der Vorlesungswebseite bereitgestellt:
 - Winter 2023/24: https://iccl.inf.tu-dresden.de/web/FS2023
